@@ -76,29 +76,37 @@ If you are using an IDE like Code::Blocks, Visual Studio, or CLion, you can simp
 
 The `main.cpp` file runs a comprehensive suite of tests. The output will look like this:
 
-EEEE2065 Lab 2 - Matrix Class Demo
-Student ID: 20615981
+============================================
+    EEEE2065 Lab 2 - Matrix Class Demo
+    Student ID: 11111111
+============================================
+
+
 ========================================
 TEST 1: set(9 elements) and print()
-[ 0.00 0.00 0.00 ]
-[ 0.00 0.00 0.00 ]
-[ 0.00 0.00 0.00 ]
+========================================
+[   0    0    0]
+[   0    0    0]
+[   0    0    0]
 Matrix A (using set with 9 parameters):
-[ 1.00 2.00 3.00 ]
-[ 4.00 5.00 6.00 ]
-[ 7.00 8.00 9.00 ]
+[   1    2    3]
+[   4    5    6]
+[   7    8    9]
+
 ... (many more tests) ...
+
+
 ========================================
 TEST 17: inv() on Singular Matrix
+========================================
 Singular Matrix (determinant = 0):
-[ 1.00 2.00 3.00 ]
-[ 2.00 4.00 6.00 ]
-[ 3.00 6.00 9.00 ]
+[   1    2    3]
+[   2    4    6]
+[   3    6    9]
 Determinant: 0
 Attempting to invert...
 Error: Matrix is singular (determinant = 0), cannot invert!
-============================================
-ALL TESTS COMPLETED SUCCESSFULLY!
+
 
 
 
