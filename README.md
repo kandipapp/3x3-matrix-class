@@ -72,44 +72,6 @@ To compile and run this project, you will need a C++ compiler like g++.
 ### Using an IDE
 If you are using an IDE like Code::Blocks, Visual Studio, or CLion, you can simply create a new project, add the three `.cpp` and `.h` files, and click "Build and Run".
 
-## Example Output
-
-The `main.cpp` file runs a comprehensive suite of tests. The output will look like this:
-
-============================================
-    EEEE2065 Lab 2 - Matrix Class Demo
-    Student ID: 11111111
-============================================
-
-
-========================================
-TEST 1: set(9 elements) and print()
-========================================
-[   0    0    0]
-[   0    0    0]
-[   0    0    0]
-Matrix A (using set with 9 parameters):
-[   1    2    3]
-[   4    5    6]
-[   7    8    9]
-
-... (many more tests) ...
-
-
-========================================
-TEST 17: inv() on Singular Matrix
-========================================
-Singular Matrix (determinant = 0):
-[   1    2    3]
-[   2    4    6]
-[   3    6    9]
-Determinant: 0
-Attempting to invert...
-Error: Matrix is singular (determinant = 0), cannot invert!
-
-
-
-
 ## License
 
 This project is distributed under the MIT License. See the `LICENSE` file for more information.
