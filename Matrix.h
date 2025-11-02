@@ -1,5 +1,5 @@
-#ifndef LAB2_H   // HEADER GURADS
-#define LAB2_H
+#ifndef MATRIX_H   // HEADER GURADS
+#define MATRIX_H
 
 #include <iostream>
 #include <iomanip>
@@ -56,4 +56,4 @@ private:
     }
 };
 
-#endif // LAB2_H
+#endif // MATRIX_H

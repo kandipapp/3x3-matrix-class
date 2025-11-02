@@ -1,4 +1,4 @@
-#include "lab2.h"
+#include "Matrix.h"
 
 using namespace std;
 
@@ -361,13 +361,6 @@ int main()
 
     return 0;
 
-
-
-
-
-
 }
-
-
 
 
