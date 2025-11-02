@@ -6,7 +6,7 @@ int main()
 {
     cout << "============================================" << endl;
     cout << "    EEEE2065 Lab 2 - Matrix Class Demo     " << endl;
-    cout << "    Student ID: 20615981         " << endl;
+    cout << "    Student ID: 11111111         " << endl;
     cout << "============================================\n" << endl;
 
     // Create matrix objects for testing
