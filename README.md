@@ -55,13 +55,13 @@ To compile and run this project, you will need a C++ compiler like g++.
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/kandipapp/3x3-matrix-class.git
+    cd 3x3-matrix-class
     ```
 
 2.  **Compile the source files:**
     ```sh
-    g++ main.cpp lab2.cpp -o matrix_demo -std=c++11
+    g++ main.cpp Matrix.cpp -o matrix_demo -std=c++11
     ```
 
 3.  **Run the executable:**
@@ -76,7 +76,6 @@ If you are using an IDE like Code::Blocks, Visual Studio, or CLion, you can simp
 
 The `main.cpp` file runs a comprehensive suite of tests. The output will look like this:
 
-============================================
 EEEE2065 Lab 2 - Matrix Class Demo
 Student ID: 20615981
 ========================================
@@ -100,6 +99,7 @@ Attempting to invert...
 Error: Matrix is singular (determinant = 0), cannot invert!
 ============================================
 ALL TESTS COMPLETED SUCCESSFULLY!
+
 
 
 ## License
